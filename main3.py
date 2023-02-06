@@ -44,3 +44,5 @@ tts = gTTS(texto, lang='es')
 tts.save("billetes.mp3")
 #Reproducir
 playsound("billetes.mp3")
+
+print(texto)
